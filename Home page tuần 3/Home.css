@@ -1,0 +1,344 @@
+.menu-bar {
+    font-size: 20px;
+    float: right;
+}
+
+nav {
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+    margin-right: 50px;
+}
+
+.Work {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    padding: 8px;
+    margin: 8px;
+}
+
+.Blog {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    padding: 8px;
+    margin: 8px;
+}
+
+.Contact {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    padding: 8px;
+    margin: 8px;
+    position: relative;
+    right: 5px;
+}
+
+.bio {
+    position: relative;
+    left: 150px;
+    top: 200px;
+
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 50px;
+}
+
+.information p {
+    font-size: 20px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.download {
+    background-color: rgb(237, 60, 60);
+    color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    width: 250px;
+    height: 60px;
+    border-radius: 2px;
+}
+
+.download p {
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.John-img img {
+    position: relative;
+    left: 800px;
+    bottom: 400px;
+    height: 350px;
+    width: 350px;
+    background: url(img/.John-img.jpg) no-repeat;
+    box-shadow: -10px 15px #EDF7FA;
+    ;
+    border-radius: 190px;
+}
+
+.recent-post {
+    height: 500px;
+    width: 1450px;
+    background-color: #EDF7FA;
+    ;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    position: relative;
+    bottom: -40px;
+    left: 100px;
+}
+
+.view-all {
+    position: relative;
+    left: 1100px;
+    bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #00A8CC;
+    font-size: 25px;
+}
+
+.design-system {
+    background-color: #FFFFFF;
+    height: 295px;
+    width: 418px;
+    border-radius: 4px;
+    display: flex;
+
+}
+
+.featured  {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    position: relative;
+    left: 100px;
+}
+.design-dashboard{
+    position: relative;
+    right: 25px;
+}
+.des-img {
+    height: 250px;
+    width: 350px;
+    border-radius: 6px;
+    left: 150px;
+    top: 80px;
+    position: relative;
+}
+.design-info {
+    position: relative;
+    left: 550px;
+    top: -230px;
+}
+.design-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    bottom:-5px;
+}
+.year2020 p{
+     background-color: #142850;
+     font-size: 27.5px;
+     height: 35px;
+     width: 80px;
+     border-radius: 16px;
+     position: relative;
+     top:2px;
+     color: #EDF7FA;
+     font-weight: 550;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+  
+}
+.Dashboard {
+    font-size: 22px;
+    color: #8695A4;
+    position: relative;
+    top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    left: 150px;
+}
+.information-text-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: relative;
+    top:-45px;
+}
+hr{
+    width: 1250px;
+    height: 0.01px;
+    position: relative;
+    top:-250px;
+    height: 0.01px;
+    background-color:#acacac ;
+    left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.vibrant-portrait{
+    position: relative;
+    right: 25px;
+}
+.des-img {
+    height: 250px;
+    width: 350px;
+    border-radius: 6px;
+    left: 150px;
+    top: 80px;
+    position: relative;
+}
+.design-info {
+    position: relative;
+    left: 550px;
+    top: -230px;
+}
+.design-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    bottom:-5px;
+}
+.year2020 p{
+     background-color: #142850;
+     font-size: 27.5px;
+     height: 35px;
+     width: 80px;
+     border-radius: 16px;
+     position: relative;
+     top:2px;
+     color: #EDF7FA;
+     font-weight: 550;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+  
+}
+.Dashboard {
+    font-size: 22px;
+    color: #8695A4;
+    position: relative;
+    top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    left: 150px;
+}
+.information-text-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: relative;
+    top:-45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.design-dashboard{
+    position: relative;
+    right: 25px;
+}
+.des-img {
+    height: 250px;
+    width: 350px;
+    border-radius: 6px;
+    left: 150px;
+    top: 80px;
+    position: relative;
+}
+.design-info {
+    position: relative;
+    left: 550px;
+    top: -230px;
+}
+.design-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    position: relative;
+    bottom:-5px;
+}
+.year2020 p{
+     background-color: #142850;
+     font-size: 27.5px;
+     height: 35px;
+     width: 80px;
+     border-radius: 16px;
+     position: relative;
+     top:2px;
+     color: #EDF7FA;
+     font-weight: 550;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+  
+}
+.Dashboard {
+    font-size: 22px;
+    color: #8695A4;
+    position: relative;
+    top: -60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    left: 150px;
+}
+.information-text-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: relative;
+    top:-45px;
+}
