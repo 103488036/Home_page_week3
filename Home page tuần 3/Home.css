@@ -97,9 +97,10 @@ h1 {
 }
 
 .recent-post {
-    height: 500px;
+    height: 470px;
     width: 1450px;
-    background-color: #EDF7FA;
+    background-color: rgba(237, 247, 250, 1);
+    ;
     ;
 }
 
@@ -109,7 +110,7 @@ h3 {
     font-size: 30px;
     position: relative;
     bottom: -40px;
-    left: 100px;
+    left: 150px;
 }
 
 .view-all {
@@ -122,6 +123,166 @@ h3 {
     font-size: 25px;
 }
 
+.left {
+    position: relative;
+    width: 500px;
+    height: 330px;
+    left: 148px;
+    bottom: 20px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+}
+
+.tittle-left {
+    position: relative;
+    padding: 20px;
+    left: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #21243D;
+}
+
+.date-left {
+    position: relative;
+    padding: 20px;
+    left: 20px;
+    bottom: -10px;
+
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+    z-index: 4;
+}
+
+.tittle-design {
+    position: absolute;
+    width: 239px;
+    height: 34px;
+    left: 217px;
+    top: 140px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #21243D;
+}
+
+.line-left {
+    position: absolute;
+    width: 0px;
+    height: 21px;
+    left: 175px;
+    top: 140px;
+    border: 1px solid #000000;
+}
+
+.left-content {
+    position: absolute;
+    width: 420px;
+    height: 117px;
+    left: 40px;
+    top: 190px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+.right {
+    position: absolute;
+    width: 500px;
+    height: 330px;
+    left: 700px;
+    top: 940px;
+
+    background: #FFFFFF;
+    border-radius: 4px;
+}
+
+.tittle-right {
+    position: relative;
+    width: 450px;
+    height: 85px;
+    left: 11px;
+    bottom: 3px;
+    padding: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #21243D;
+}
+
+.date-right {
+    position: absolute;
+    width: 374px;
+    height: 34px;
+    left: 28px;
+    top: 137px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+
+.line-right {
+    position: absolute;
+    width: 0px;
+    height: 21px;
+    left: 155px;
+    top: 135px;
+    border: 1px solid #000000;
+    background-color: black;
+}
+
+.design-right {
+    position: absolute;
+    width: 239px;
+    height: 34px;
+    left: 190px;
+    top: 135px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #21243D;
+}
+
+.content-right {
+    position: absolute;
+    width: 420px;
+    height: 117px;
+    left: 30px;
+    top: 185px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+
 .design-system {
     background-color: #FFFFFF;
     height: 295px;
@@ -131,17 +292,19 @@ h3 {
 
 }
 
-.featured  {
+.featured {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 30px;
     position: relative;
     left: 100px;
 }
-.design-dashboard{
+
+.design-dashboard {
     position: relative;
     right: 25px;
 }
+
 .des-img {
     height: 250px;
     width: 350px;
@@ -150,32 +313,37 @@ h3 {
     top: 80px;
     position: relative;
 }
+
 .design-info {
     position: relative;
     left: 550px;
     top: -230px;
 }
+
 .design-title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 40px;
     position: relative;
-    bottom:-5px;
+    bottom: -5px;
 }
-.year2020 p{
-     background-color: #142850;
-     font-size: 27.5px;
-     height: 35px;
-     width: 80px;
-     border-radius: 16px;
-     position: relative;
-     top:2px;
-     color: #EDF7FA;
-     font-weight: 550;
-     font-family: Arial, Helvetica, sans-serif;
-     text-align: center;
-  
+
+.year2020 p {
+    background-color: #142850;
+    font-size: 27.5px;
+    height: 32px;
+    width: 90px;
+    border-radius: 20px;
+    position: relative;
+    top: 2px;
+    color: #EDF7FA;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 2px;
+
 }
+
 .Dashboard {
     font-size: 22px;
     color: #8695A4;
@@ -185,36 +353,32 @@ h3 {
     font-weight: 400;
     left: 150px;
 }
-.information-text-1{
+
+.information-text-1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     position: relative;
-    top:-45px;
+    top: -45px;
 }
-hr{
-    width: 1250px;
+
+hr {
+    width: 1200px;
     height: 0.01px;
     position: relative;
-    top:-250px;
+    top: -250px;
     height: 0.01px;
-    background-color:#acacac ;
+    background-color: #acacac;
     left: 20px;
 }
 
 
-
-
-
-
-
-
-
-
-.vibrant-portrait{
+.vibrant-portrait {
     position: relative;
     right: 25px;
+    bottom: 300px;
 }
-.des-img {
+
+.vib-img {
     height: 250px;
     width: 350px;
     border-radius: 6px;
@@ -222,33 +386,38 @@ hr{
     top: 80px;
     position: relative;
 }
-.design-info {
+
+.vibrant-info {
     position: relative;
     left: 550px;
     top: -230px;
 }
-.design-title {
+
+.vibrant-title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 40px;
     position: relative;
-    bottom:-5px;
+    bottom: -5px;
 }
-.year2020 p{
-     background-color: #142850;
-     font-size: 27.5px;
-     height: 35px;
-     width: 80px;
-     border-radius: 16px;
-     position: relative;
-     top:2px;
-     color: #EDF7FA;
-     font-weight: 550;
-     font-family: Arial, Helvetica, sans-serif;
-     text-align: center;
-  
+
+.year2018 p {
+    background-color: #142850;
+    font-size: 27.5px;
+    height: 32px;
+    width: 90px;
+    border-radius: 20px;
+    position: relative;
+    top: 2px;
+    color: #EDF7FA;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 2px;
+
 }
-.Dashboard {
+
+.Illustration {
     font-size: 22px;
     color: #8695A4;
     position: relative;
@@ -257,11 +426,12 @@ hr{
     font-weight: 400;
     left: 150px;
 }
-.information-text-1{
+
+.information-text-2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     position: relative;
-    top:-45px;
+    top: -45px;
 }
 
 
@@ -271,29 +441,14 @@ hr{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.design-dashboard{
+.Malayalam-type {
     position: relative;
     right: 25px;
+    bottom: 575px;
+
 }
-.des-img {
+
+.mala-img {
     height: 250px;
     width: 350px;
     border-radius: 6px;
@@ -301,33 +456,38 @@ hr{
     top: 80px;
     position: relative;
 }
-.design-info {
+
+.mala-info {
     position: relative;
     left: 550px;
     top: -230px;
 }
-.design-title {
+
+.mala-title {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     font-size: 40px;
     position: relative;
-    bottom:-5px;
+    bottom: -5px;
 }
-.year2020 p{
-     background-color: #142850;
-     font-size: 27.5px;
-     height: 35px;
-     width: 80px;
-     border-radius: 16px;
-     position: relative;
-     top:2px;
-     color: #EDF7FA;
-     font-weight: 550;
-     font-family: Arial, Helvetica, sans-serif;
-     text-align: center;
-  
+
+.year2018-2 p {
+    background-color: #142850;
+    font-size: 27.5px;
+    height: 32px;
+    width: 90px;
+    border-radius: 20px;
+    position: relative;
+    top: 2px;
+    color: #EDF7FA;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 2px;
+
 }
-.Dashboard {
+
+.Typography {
     font-size: 22px;
     color: #8695A4;
     position: relative;
@@ -336,9 +496,47 @@ hr{
     font-weight: 400;
     left: 150px;
 }
-.information-text-1{
+
+.information-text-3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
     position: relative;
-    top:-45px;
+    top: -45px;
+}
+
+.Social {
+    position: relative;
+    bottom: 700px;
+    left: 460px;
+}
+
+.facebook_icon img {
+    margin: 25px;
+}
+
+.instagram_icon img {
+    height: 60px;
+    width: 60px;
+    margin: 25px;
+}
+
+.twitter_icon img {
+    margin: 25px;
+}
+
+.linkedln_icon img {
+    height: 60px;
+    width: 60px;
+    margin: 25px;
+}
+
+.copyright {
+    color: rgba(33, 36, 61, 1);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    position: relative;
+    left: 120px;
+    top: -20px;
+
 }
